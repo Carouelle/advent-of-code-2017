@@ -3,7 +3,7 @@ import day1
 import day1_part2
 
 
-class TestStringMethods(unittest.TestCase):
+class TestDay1(unittest.TestCase):
 
     def test_day1(self):
         self.assertEqual(day1.find_sum('1122'), 3)
